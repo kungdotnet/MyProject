@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme Company Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="css/casr-css.css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Itim|Kanit:400,100,100italic,200,200italic,300,300italic,700,700italic,800,800italic,900,900italic,600italic,500italic,600,500,400italic&subset=thai,latin' rel='stylesheet' type='text/css'>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+   
+   
+	
+</head>
+<body id="mySubPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<nav class="navbar navbar-default navbar-fixed-top small">
+  <div class="container">
+    <div class="navbar-header">
+      <div id="logo_img" class="thumbnail test small">
+      	   <img src="images/logo-flower.png">
+      </div> 
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+        <li><a href="news.html">NEWS</a></li>
+        <li><a href="activities.html">EVENT</a></li>
+        <li><a href="research.html">RESEARCH</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+ 
+<!-- Container (Pricing Section) -->
+<div id="register" class="container-fluid-sub">
+   
+  <div class="row slideanim bgcontent">
+    <div class="col-md-12" >
+         <div class="col-md-12 text-center" >
+		    <h2>REGISTER</h2>
+		 </div>
+		 <div class="col-sm-9"> 
+	         <div class="col-sm-8 register nav_step">
+				  <ul class="nav nav-tabs">
+				    <li class="active"><a data-toggle="tab" href="#home">User Login</a></li>
+				    <li><a data-toggle="tab" href="#menu1">Personality</a></li>
+				    <li><a data-toggle="tab" href="#menu2">Education</a></li>
+				    <li><a data-toggle="tab" href="#menu3">Address</a></li>
+				    <li><a data-toggle="tab" href="#menu4">Contact</a></li>
+				  </ul>
+				  
+				  <div class="tab-content">
+				    <!-- tab1#UserLogin -->
+				    <div id="home" class="tab-pane fade in active">
+				        <form role="form">
+			                <div class="form-group">
+			                  <label for="emailField">Username: </label>
+			                  <input type="email" class="form-control" name="username" id="username" placeholder="Username">
+			                </div>
+			                <div class="form-group">
+			                  <label for="emailField">Password:</label>
+			                  <input type="email" class="form-control" name="password" id="password" placeholder="Password">
+			                </div>
+			                <div class="form-group">
+			                  <label for="emailField">Confirm Password:</label>
+			                  <input type="email" class="form-control" name="confirm_password" id="confirm_password" placeholder="Confirm Password">
+			                </div>
+			                <div class="form-group">
+			                  <label for="emailField">E-mail Address:</label>
+			                  <input type="email" class="form-control" name="register_email" id="register_email" placeholder="E-mail">
+			                </div> 
+			                <button type="submit" class="btn btn-default">Next</button>
+			              </form>
+			              <p>&nbsp;</p>
+				       
+				    </div>
+				    <!-- tab2: Personality -->
+				    <div id="menu1" class="tab-pane fade">
+				         <form role="form">
+			                <div class="form-group">
+			                  <label for="emailField">Title:</label>
+			                  <input type="email" class="form-control" name="title"  id="title" placeholder="Title">
+			                </div>
+			                <div class="form-group">
+			                  <label for="emailField">Name:</label>
+			                  <input type="email" class="form-control" name="firstname"  id="firstname" placeholder="Firstname">
+			                </div>
+			                <div class="form-group">
+			                  <label for="emailField">Surname:</label>
+			                  <input type="email" class="form-control" name="lastname"  id="lastname" placeholder="Lastname">
+			                </div>
+			                <div class="form-group">
+			                  <label for="emailField">Birth of Date:</label>
+			                  <input type="email" class="form-control" name="birthday" id="birthday" placeholder="Birth of Date">
+			                </div>
+			                <div class="form-group">
+			                  <label for="emailField">Ages:</label>
+			                  <input type="email" class="form-control" name="ages" id="ages" placeholder="Ages">
+			                </div>
+			                <div class="form-group">
+			                  <label for="emailField">Sex:</label>
+			                  <select class="form-control" name="sex" id="sex">
+			                    <option value="m">Male</option>
+			                    <option value="f">Female</option> 
+			                  </select>
+			                </div> 
+			                <button type="submit" class="btn btn-default">Next</button>
+			              </form>
+			              <p>&nbsp;</p>
+				    </div>
+				    
+				    <!-- tab3: Education -->
+				    <div id="menu2" class="tab-pane fade">
+				      <form role="form">
+		                <div class="form-group">
+		                  <label for="emailField">Last Education Level: </label>
+		                  <select class="form-control" name="education" id="education">
+		                    <option>Primary school</option>
+		                    <option>Junior high school</option>
+		                    <option>Senior High school</option>
+		                    <option>Associate Degree</option>
+		                    <option>Bachelor Degree</option>
+		                    <option>Master Degree</option>
+		                    <option>Doctorate Degree</option>
+		                    <option>Honorary Doctorate Degree</option>
+		                  </select>
+		                </div>
+		                <div class="form-group">
+		                  <label for="selectField">Major: </label>
+		                  <input type="email" class="form-control" name="major" id="major" placeholder="Major">
+		                </div> 
+		                <button type="submit" class="btn btn-default">Next</button>
+		              </form>
+				      <p>&nbsp;</p>
+				    </div>
+				    
+				    <!-- tab4: Address -->
+				    <div id="menu3" class="tab-pane fade">
+				        <form role="form">
+			                <div class="form-group">
+			                  <label for="emailField">Address No.</label>
+			                  <input type="email" class="form-control" name="address_no" id="address_no" placeholder="Address No.">
+			                </div>
+			                <div class="form-group">
+			                  <label for="emailField">Village name.</label>
+			                  <input type="email" class="form-control" name="village" id="village" placeholder="Village name">
+			                </div>
+			                <div class="form-group">
+			                  <label for="emailField">Soi.</label>
+			                  <input type="email" class="form-control" name="soi" id="soi" placeholder="Soi">
+			                </div>
+			                <div class="form-group">
+			                  <label for="emailField">Road: </label>
+			                  <input type="email" class="form-control" name="road" id="road" placeholder="Road">
+			                </div>
+			                <div class="form-group">
+			                  <label for="emailField">Sub District: </label>
+			                  <select class="form-control" name="sub_district" id="sub_district" >
+			                    <option>-- Please select --</option> 
+			                  </select>
+			                </div>
+			                <div class="form-group">
+			                  <label for="emailField">District: </label>
+			                  <select class="form-control" name="district" id="district">
+			                    <option>-- Please select --</option> 
+			                  </select>
+			                </div>
+			                <div class="form-group">
+			                  <label for="emailField">Province: </label>
+			                  <select class="form-control" name="province" id="province">
+			                    <option>-- Please select --</option> 
+			                  </select>
+			                </div>
+			                <div class="form-group">
+			                  <label for="emailField">Zipcode: </label>
+			                  <select class="form-control" name="zipcode" id="zipcode">
+			                    <option>-- Please select --</option> 
+			                  </select>
+			                </div>
+			                <button type="submit" class="btn btn-default">Next</button>
+			              </form>
+			              <p>&nbsp;</p>
+				    </div>
+				    <!-- tab5: Contact -->
+				    <div id="menu4" class="tab-pane fade">
+				        <form role="form"> 
+			                <div class="form-group">
+			                  <label for="selectField">Tel.: </label>
+			                  <input type="email" class="form-control" name="telephone" id="telephone" placeholder="Telephone">
+			                </div> 
+			                <div class="form-group">
+			                  <label for="selectField">Mobile: </label>
+			                  <input type="email" class="form-control" name="mobile" id="mobile" placeholder="Mobile">
+			                </div> 
+			                <div class="form-group">
+			                  <label for="selectField">E-mail Address: </label>
+			                  <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+			                </div> 
+			                <button type="submit" class="btn btn-default">Submit</button>
+			            </form>
+			            <p>&nbsp;</p>
+				    </div>
+				  </div>
+	           
+	         </div>
+    </div> 
+    
+    <!-- End content -->
+    <div class="col-sm-3">
+	    <div class="col-sm-12">
+	          <ul class="nida_box_topic subpage"> 
+	            <li>ข่าวประชาสัมพันธ์ </li> 
+	          </ul>
+	          <ul class="nida_box">
+	              <li><a href="activities.html"><img alt="" src="images/arrow-o.png">รายการวันนี้ที่นิด้า ตอน ประเทศสิงคโปร์กับสังคมผู้สูงอายุ 20/06/2016</a> </li>
+	              <li><a href="activities.html"><img alt="" src="images/arrow-o.png">โครงการสำรวจทัศนคติเรื่อง “ภาพลักษณ์ผู้สูงอายุไทย 20/06/2016</a></li>
+	              <li><a href="activities.html"><img alt="" src="images/arrow-o.png">การนำเสนอ "โครงการการศึกษาประชากรผู้สูงอายุระยะยาวโดยการใช้ตัวอย่างซ้ำ" 20/06/2016</a></li>
+	              <li class="readmore"><a href="#">Read more ...</a></li>
+	           </ul>
+	    </div>
+	    <div class="col-sm-12">
+	          <ul class="nida_box_topic subpage"> 
+	            <li>ข่าวกิจกรรม</li> 
+	          </ul> 
+	    </div> 
+	    <div class="col-sm-12 nida_box">
+	          <div class="col-sm-3">
+	               <a href="activities.html"><img alt="" src="images/activities_751.jpg"></a>
+	          </div>
+	          <div class="col-sm-9" >
+	              <div class="col-sm-12 topic">
+		          	<a href="activities.html">รายการวันนี้ที่นิด้า ตอน ประเทศสิงคโปร์กับสังคมผู้สูงอายุ 20/06/2016</a>
+		          </div>
+		          <div class="col-sm-12">
+		          	   Click
+		          </div>
+		      </div>
+	    </div>
+	    <div class="col-sm-12 nida_box">
+	    
+	          <div class="col-sm-3" style="font-size: 12px; padding-left: 0px;">
+	               <a href="activities.html"><img alt="" src="images/activities_753.jpg"></a>
+	          </div>
+	          <div class="col-sm-9" >
+	              <div class="col-sm-12" style="font-size: 12px; padding-left: 0px;">
+		          	<a href="activities.html">รายการวันนี้ที่นิด้า ตอน ประเทศสิงคโปร์กับสังคมผู้สูงอายุ 20/06/2016</a>
+		          </div>
+		          <div class="col-sm-12" style="font-size: 12px; padding-left: 0px;">
+		          	   Click
+		          </div>
+		      </div>
+		      
+	    </div>
+	    <div class="col-sm-12 nida_box">
+	    
+	          <div class="col-sm-3" style="font-size: 12px; padding-left: 0px;">
+	               <a href="activities.html"><img alt="" src="images/activities_752.jpg"></a>
+	          </div>
+	          <div class="col-sm-9" >
+	              <div class="col-sm-12" style="font-size: 12px; padding-left: 0px;">
+		          	<a href="activities.html">รายการวันนี้ที่นิด้า ตอน ประเทศสิงคโปร์กับสังคมผู้สูงอายุ 20/06/2016</a>
+		          </div>
+		          <div class="col-sm-12" style="font-size: 12px; padding-left: 0px;">
+		          	   Click
+		          </div>
+		      </div>
+		      
+	    </div>
+	    <div class="col-sm-12"> 
+	          <ul class="nida_box">
+	              <li class="readmore"><a href="#">Read more ...</a></li>
+	           </ul>
+	    </div>
+	     
+	    <div class="col-sm-12">
+	          <ul class="nida_box_topic subpage"> 
+	            <li>แผนงานวิจัย</li> 
+	          </ul>
+	          <ul class="nida_box">
+	              <li><a href="activities.html"><img alt="" src="images/arrow-o.png">รายการวันนี้ที่นิด้า ตอน ประเทศสิงคโปร์กับสังคมผู้สูงอายุ 20/06/2016</a> </li>
+	              <li><a href="activities.html"><img alt="" src="images/arrow-o.png">โครงการสำรวจทัศนคติเรื่อง “ภาพลักษณ์ผู้สูงอายุไทย 20/06/2016</a></li>
+	              <li><a href="activities.html"><img alt="" src="images/arrow-o.png">การนำเสนอ "โครงการการศึกษาประชากรผู้สูงอายุระยะยาวโดยการใช้ตัวอย่างซ้ำ" 20/06/2016</a></li>
+	              <li class="readmore"><a href="#">Read more ...</a></li>
+	           </ul>
+	    </div>
+	    <div class="col-sm-12">
+	          <ul class="nida_box_topic subpage"> 
+	            <li>ผลงานวิจัย</li> 
+	          </ul>
+	          <ul class="nida_box">
+	              <li><a href="activities.html"><img alt="" src="images/arrow-o.png">รายการวันนี้ที่นิด้า ตอน ประเทศสิงคโปร์กับสังคมผู้สูงอายุ 20/06/2016</a> </li>
+	              <li><a href="activities.html"><img alt="" src="images/arrow-o.png">โครงการสำรวจทัศนคติเรื่อง “ภาพลักษณ์ผู้สูงอายุไทย 20/06/2016</a></li>
+	              <li><a href="activities.html"><img alt="" src="images/arrow-o.png">การนำเสนอ "โครงการการศึกษาประชากรผู้สูงอายุระยะยาวโดยการใช้ตัวอย่างซ้ำ" 20/06/2016</a></li>
+	              <li class="readmore"><a href="#">Read more ...</a></li>
+	           </ul>
+	    </div>
+	    <div class="col-sm-12">
+	          <ul class="nida_box_topic subpage"> 
+	            <li>เอกสารเผยแพร่</li> 
+	          </ul>
+	          <ul class="nida_box">
+	              <li><a href="activities.html"><img alt="" src="images/arrow-o.png">รายการวันนี้ที่นิด้า ตอน ประเทศสิงคโปร์กับสังคมผู้สูงอายุ 20/06/2016</a> </li>
+	              <li><a href="activities.html"><img alt="" src="images/arrow-o.png">โครงการสำรวจทัศนคติเรื่อง “ภาพลักษณ์ผู้สูงอายุไทย 20/06/2016</a></li>
+	              <li><a href="activities.html"><img alt="" src="images/arrow-o.png">การนำเสนอ "โครงการการศึกษาประชากรผู้สูงอายุระยะยาวโดยการใช้ตัวอย่างซ้ำ" 20/06/2016</a></li>
+	              <li class="readmore"><a href="#">Read more ...</a></li>
+	           </ul>
+	    </div>
+    </div>
+     
+  </div>
+ </div>  
+   
+</div>
+
+ 
+</body>
+</html>
